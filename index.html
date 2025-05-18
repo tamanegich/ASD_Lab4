@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <title>граф</title>
+        <style>
+            canvas {
+                border-radius: 3%;
+                background: rgb(213, 213, 255);
+                display: block;
+                margin-top: 3%;
+                margin-left: auto;
+                margin-right: auto;
+                justify-content: center;
+            }
+            button {
+                font-family: garamond;
+                padding: 1%;
+                display:block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 1%;
+                border: 2px solid indigo;
+                border-radius: 10px;
+                background: rgb(213, 213, 255);
+            }
+            body {
+                font-family: garamond;
+                background: rgb(222, 222, 255);
+            }
+            h1, h2 {
+                color: indigo;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Лабараторна робота №4</h1>
+        <h2>Варіант 4224</h2>
+        <button id="btnDirected">Напрямлений граф</button>
+        <button id="btnUndirected">Ненапрямлений граф</button>
+        <canvas id="graphCanvas" width="900" height="900"></canvas>
+        <div id="output"></div>
+        <script src="graph.js"></script>
+    </body>
+</html>
